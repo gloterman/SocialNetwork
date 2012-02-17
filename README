@@ -1,4 +1,4 @@
-Pour information,
+Pour information,0
 Pour établir la page d'index, j'ai fait comme ça :
 - Création d'un bundle Home qui ne fait qu'afficher la page principale
   -> son namespace : Home/IndexBundle
