@@ -3,11 +3,11 @@
     <head>
         <title>Projet 2SN</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/base.css') }}">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/jquery.flip.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.flip.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
     </head>
     <body>
         <header>
@@ -37,14 +37,14 @@
                             <div class="inner-border">
                                 <div class="backg-nav"> <!--shadowed-->
                                     <ul class="nav">
-                                        <li class="quick-nav"><a href="#"><img src="images/home.png" title="Acceuil" width="24" height="24"></a></li>
-                                        <li class="quick-nav"><a href="#"><img src="images/user.png" title="Profile" width="24" height="24"></a></li> 
-                                        <li class="quick-nav"><a href="#"><img src="images/friends.png" title="Amis" width="24" height="24"></a></li>
-                                        <li class="quick-nav"><a href="#"><img src="images/photo.png" title="Photos" width="24" height="24"></a></li>
-                                        <li class="quick-nav"><a href="#"><img src="images/message.png" title="Messages" width="24" height="24"></a></li>
-                                        <li class="quick-nav"><a href="#"><img src="images/notif.png" title="Notifications" width="24" height="24"></a></li>
-                                        <li class="quick-nav"><a href="#"><img src="images/pro.png" title="Professionnel" width="24" height="24"></a></li>
-                                        <li class="quick-nav"><a href="#"><img src="images/params.png" title="Parametre" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/home.png') }}" title="Acceuil" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/user.png') }}" title="Profile" width="24" height="24"></a></li> 
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/friends.png') }}" title="Amis" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/photo.png') }}" title="Photos" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/message.png') }}" title="Messages" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/notif.png') }}" title="Notifications" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/pro.png') }}" title="Professionnel" width="24" height="24"></a></li>
+                                        <li class="quick-nav"><a href="#"><img src="{{ asset('images/params.png') }}" title="Parametre" width="24" height="24"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -59,21 +59,21 @@
                                     <div class="profile-left borderitem">
                                         <div class="ul-friends-left">
                                             <div class="box-friendsl">
-                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="images/photo/mini/albane.jpg" width="20" height="20" alt="jaja"></div>
+                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="{{ asset('images/photo/mini/albane.jpg') }}" width="20" height="20" alt="jaja"></div>
                                                 <div class="friends-infos right">
                                                     <span class="name-friends">Albane Pacquentin</span><br/>
                                                     <span class="mutual-friends">36 mutual friends</span>
                                                 </div>
                                             </div>
                                             <div class="box-friendsl">
-                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="images/photo/mini/moni.jpg" width="20" height="20" alt="jaja"></div>
+                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="{{ asset('images/photo/mini/moni.jpg') }}" width="20" height="20" alt="jaja"></div>
                                                 <div class="friends-infos right"> 
                                                     <span class="name-friends">Mo Ni</span><br/>
                                                     <span class="mutual-friends">17 mutual friends</span>
                                                 </div>
                                             </div>
                                             <div class="box-friendsl">
-                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="images/photo/mini/jc.jpg" width="20" height="20" alt="jaja"></div>
+                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="{{ asset('images/photo/mini/jc.jpg') }}" width="20" height="20" alt="jaja"></div>
                                                 <div class="friends-infos right"> 
                                                     <span class="name-friends">Jc Barouillet</span><br/>
                                                     <span class="mutual-friends">38 mutual friends</span>
@@ -82,21 +82,21 @@
                                         </div>
                                         <div class="ul-friends-right">
                                             <div class="box-friendsr">
-                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="images/photo/mini/anne.jpg" width="20" height="20" alt="jaja"></div>
+                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="{{ asset('images/photo/mini/anne.jpg') }}" width="20" height="20" alt="jaja"></div>
                                                 <div class="friends-infos right">
                                                     <span class="name-friends">Anne Yaffa</span><br/>
                                                     <span class="mutual-friends">12 mutual friends</span>
                                                 </div>
                                             </div>
                                             <div class="box-friendsr">
-                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="images/photo/mini/marti.jpg" width="20" height="20" alt="jaja"></div>
+                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="{{ asset('images/photo/mini/marti.jpg') }}" width="20" height="20" alt="jaja"></div>
                                                 <div class="friends-infos right">
                                                     <span class="name-friends">Martina Francescatti</span><br/>
                                                     <span class="mutual-friends">28 mutual friends</span>
                                                 </div>
                                             </div>
                                             <div class="box-friendsr">
-                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="images/photo/mini/annec.jpg" width="20" height="20" alt="jaja"></div>
+                                                <div class="photo-profil-mini left"><img class="thumbnail-mini" src="{{ asset('images/photo/mini/annec.jpg') }}" width="20" height="20" alt="jaja"></div>
                                                 <div class="friends-infos right"> 
                                                     <span class="name-friends">Anne-cécile Bar</span><br/>
                                                     <span class="mutual-friends">44 mutual friends</span>
@@ -107,18 +107,19 @@
                                     <div class="profile-right">
                                         <div class="infos">
                                             <div class="name">Jawad Zidane</div>
-                                            <div class="info-items"><img src="images/work2.png" width="16" height="16"><span class="info-items-pos">Goes to <b>ETNA</b></span></div>
-                                            <div class="info-items"><img src="images/world2.png" width="16" height="16"><span class="info-items-pos">Knows English, Arabic, French </span></div>
-                                            <div class="info-items"><img src="images/homy2.png" width="16" height="16"><span class="info-items-pos">From Sydney, Australia </span></div>
-                                            <div class="info-items"><img src="images/calendar2.png" width="16" height="16"><span class="info-items-pos">Born on November 15, 1987 </span></div>
-                                            <div class="info-items"><img src="images/comment.png" width="16" height="16"><span class="info-items-pos">Status</span>
+                                            <div class="info-items"><img src="{{ asset('images/work2.png') }}" width="16" height="16"><span class="info-items-pos">Goes to <b>ETNA</b></span></div>
+                                            <div class="info-items"><img src="{{ asset('images/world2.png') }}" width="16" height="16"><span class="info-items-pos">Knows English, Arabic, French </span>
+					    </div>
+                                            <div class="info-items"><img src="{{ asset('images/homy2.png') }}" width="16" height="16"><span class="info-items-pos">From Sydney, Australia </span></div>
+                                            <div class="info-items"><img src="{{ asset('images/calendar2.png') }}" width="16" height="16"><span class="info-items-pos">Born on November 15, 1987 </span></div>
+                                            <div class="info-items"><img src="{{ asset('images/comment.png') }}" width="16" height="16"><span class="info-items-pos">Status</span>
                                                 <div class="wrap">
                                                     <input type="text" class="textarea-form" onfocus="" value="&nbsp;What's your mind ?">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="photo-profil">
-                                            <img class="thumbnail" src="images/jaja.jpg" width="150" height="172" alt="jaja">
+                                            <img class="thumbnail" src="{{ asset('images/jaja.jpg') }}" width="150" height="172" alt="jaja">
                                         </div>  
                                     </div>
                                 </div>
