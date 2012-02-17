@@ -1,1 +1,6 @@
-HI FUCKING ASSHOLES !!
+Pour information,
+Pour établir la page d'index, j'ai fait comme ça :
+- Création d'un bundle Home qui ne fait qu'afficher la page principale
+  -> son namespace : Home/IndexBundle
+  -> son controller : Default->fonction indexAction() qui fait un render du html.twig qui lui même fait un extends du layout global (/app/Resources/views/layout.html.twig)
+- Dossier css, js et images dans /web donc on mettra tout ce qui touche au design et javascript dans ces dossiers.
